@@ -33,9 +33,9 @@ require(ROOT.'view/head.php');
 <?php } ?>
 
 <div style="padding: 50px 30px 1px 30px;font-size: 19px;">
-    <p><strong>The Space War</strong> is a fast-paced, strategic 2-player card game designed by two competitive Magic: The Gathering tournament players.</p>
+    <p><strong>The Space War</strong> is a fast-paced, strategic 2-player card game designed by two competitive MTG tournament players.</p>
 
-    <p>A pure tactical experience akin to chess. No booster packs, no resource cards and no dead cards. All cards are included for free from the start.</p>
+    <p>Refined through 5 years of playtesting, it provides a pure tactical experience akin to chess. No booster packs, no resource cards and no dead cards. All cards are included from the start.</p>
 
     <p>Play seamlessly in your browser across all devices, or print and play offline.</p>
 
