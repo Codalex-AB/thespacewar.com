@@ -2,7 +2,6 @@
 
 <h2>Good cards with this</h2>
 
-<?=cardImage('extra-deposit')?>
 <?=cardImage('commander-the-miller')?>
 
 <h2>Compare With</h2>

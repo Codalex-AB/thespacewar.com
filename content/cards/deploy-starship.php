@@ -1,10 +1,12 @@
-<h2>Popular Cards to Discard</h2>
+<h2>Popular Cards to discard from play</h2>
 
 <?=cardImage('satellite')?>
 <?=cardImage('station-repair')?>
 <?=cardImage('energy-source')?>
 <?=cardImage('drone')?>
 <?=cardImage('fast-missile')?>
+<?=cardImage('acid-projectile')?>
+
 
 <h2>Rule Clarifications</h2>
 

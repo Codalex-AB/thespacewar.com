@@ -1,4 +1,6 @@
-<p>Remember to include at least one copy of <a href='/cards/death-ray'>Death Ray</a> when playing with this. </p>
+<p><em>"The most terrifying weapon in the United Stars arsenal is not the missile that destroys a ship, but the beam that vaporizes it. It is a reminder that in the face of absolute power, defense is merely a temporary delay."</em></p>
+
+<p><strong>Tip:</strong> Remember to include at least one copy of <a href="/cards/death-ray">Death Ray</a> when playing with this card.</p>
 
 <h2>What can stop Death Ray Cannon?</h2>
 

@@ -7,7 +7,8 @@
 
 <h2>Good With</h2>
 
-<?=cardImage('extra-deposit')?>
+<?=cardImage('commander-the-miller')?>
+
 
 <h2>Compare With</h2>
 

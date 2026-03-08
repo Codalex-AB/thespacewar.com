@@ -1,3 +1,5 @@
+<p><em>"A good plan is a map; a great plan is the territory. When you can see the entire board, every move becomes a calculated strike."</em></p>
+
 <h2>Compare With</h2>
 
 <?=cardImage('perfect-plan')?>
@@ -5,8 +7,8 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Nerf in January 2026: Look at 7 cards instead of 8 cards.</li>
-    <li>Buff in December 2025: Cost to play is reduced from 3 to 2. Look at 8 cards instead of 10 cards.</li>
-    <li>June 2021: Card renamed from Good Plan to Great Plan.</li>
+    <li>Nerf in January 2026:<br>Look at 7 cards instead of 8 cards.</li>
+    <li>Buff in December 2025:<br>Cost to play is reduced from 3 to 2. Look at 8 cards instead of 10 cards.</li>
+    <li>June 2021:<br>Card renamed from Good Plan to Great Plan.</li>
     <li>April 2020: Created.</li>
 </ul>

@@ -1,3 +1,5 @@
+<p><em>"The Defense Cannon is a testament to the Terrans pragmatic approach to warfare. It is not a weapon of conquest, but a shield made manifest—a deterrent that ensures the safety of our people through overwhelming firepower."</em></p>
+
 <p>Defense Cannon is great for attacking those enemy spaceships in your home zone.</p>
 
 <h2>Good targets</h2>
@@ -17,7 +19,7 @@
 
 <ul>
     <li>Buff in December 2025:<br>Attack value increased from 2 to 3. Can only be attacked if the owner has at least 3 station damage.</li>
-    <li>Buff in September 2021: Now cannot be attacked if you have a shield.</li>
+    <li>Buff in September 2021:<br>Now cannot be attacked if you have a shield.</li>
     <li>Buff in July 2021: Earlier a simple 4/1 that could not move.</li>
     <li>September 2018: Created.</li>
 </ul>

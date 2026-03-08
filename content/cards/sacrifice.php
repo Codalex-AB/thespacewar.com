@@ -8,6 +8,7 @@
 <h2>Works Very Good With</h2>
 
 <?=cardImage('return')?>
+<?=cardImage('ambush')?>
 
 <h2>Changelog During Playtesting</h2>
 

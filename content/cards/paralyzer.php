@@ -6,10 +6,13 @@
 <?=cardImage('the-exterminator')?>
 <?=cardImage('titan')?>
 <?=cardImage('death-ray-cannon')?>
+<?=cardImage('energy-shield')?>
+<?=cardImage('mega-shield')?>
+
 
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Buff in December 2025: Cost reduced from 6 to 5 and now also destroys shields on the first hit.</li>
+    <li>Buff in December 2025:<br>Cost reduced from 6 to 5 and now also destroys shields on the first hit.</li>
     <li>September 2019: Created.</li>
 </ul>

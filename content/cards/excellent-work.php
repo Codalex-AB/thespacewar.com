@@ -13,6 +13,10 @@
 
 <?=cardImage('commander-the-miller')?>
 
+<h2>Good Against</h2>
+
+<?=cardImage('obstaclese')?>
+
 <h2>Changelog During Playtesting</h2>
 
 <ul>

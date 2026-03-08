@@ -22,7 +22,6 @@
 <?=cardImage('corrupted-outpost')?>
 <?=cardImage('pursuiter')?>
 <?=cardImage('defense-cannon')?>
-<?=cardImage('energy-source')?>
 <?=cardImage('extra-deposit')?>
 <?=cardImage('deja-vu')?>
 <?=cardImage('transformation')?>
@@ -33,7 +32,6 @@
 <h2>Compare With</h2>
 
 <?=cardImage('luck')?>
-<?=cardImage('disturbing-signals')?>
 
 <h2>Changelog During Playtesting</h2>
 

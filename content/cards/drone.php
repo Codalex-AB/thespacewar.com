@@ -6,6 +6,7 @@
 <?=cardImage('drone-leader')?>
 <?=cardImage('fusion-ship')?>
 <?=cardImage('deploy-starship')?>
+<?=cardImage('collision-skill')?>
 
 <h2>Cards Good Against This</h2>
 

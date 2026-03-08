@@ -5,13 +5,6 @@
     <li>Will make you loose the game if you only have 2 remaining life when you start your turn.</li>
 </ul>
 
-<h2>Targets with just 2 defense that will be destroyed</h2>
-
-<?=cardImage('drone')?>
-<?=cardImage('pursuiter')?>
-<?=cardImage('defense-cannon')?>
-<?=cardImage('alien-missile')?>
-
 <h2>Rule Clarifications</h2>
 
 <ul>
@@ -21,7 +14,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Buff in December 2025: Now deals 2 damage to everything instead of 1.</li>
-    <li>Nerf in August 2021: Can no longer be discarded any moment to deal 1 damage to everything.</li>
+    <li>Buff in December 2025:<br>Now deals 2 damage to everything instead of 1.</li>
+    <li>Nerf in August 2021:<br>Can no longer be discarded any moment to deal 1 damage to everything.</li>
     <li>March 2020: Created.</li>
 </ul>

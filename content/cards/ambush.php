@@ -4,8 +4,9 @@
 <?=cardImage('fusion-ship')?>
 <?=cardImage('stormfalcon')?>
 <?=cardImage('disturbing-sensor')?>
-<?=cardImage('hacker')?>
 <?=cardImage('hunter')?>
+<?=cardImage('explosive-missile')?>
+<?=cardImage('nuclear-missile')?>
 
 <h2>Works good with</h2>
 

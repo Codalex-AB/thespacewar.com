@@ -1,3 +1,5 @@
+<p><em>"In the vastness of space, the most powerful weapon isn't a laser—it's a supernova. When you can unleash the fury of a dying star, you don't just destroy their ships; you rewrite their reality."</em></p>
+
 <p>The most powerful card in the game.</p>
 
 <h2>What cards can stop Supernova?</h2>

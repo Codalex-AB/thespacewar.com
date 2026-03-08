@@ -3,11 +3,15 @@
 <h2>Good Cards with this</h2>
 
 <?=cardImage('disturbing-sensor')?>
+<?=cardImage('corrupted-outpost')?>
 <?=cardImage('extra-deposit')?>
 
-<h2>Other cards that force the opponent to draw</h2>
+<h2>Other cards that force the opponent to discard</h2>
 
+<?=cardImage('corrupted-outpost')?>
+<?=cardImage('disturbing-sensor')?>
 <?=cardImage('sabotage')?>
+<?=cardImage('great-disturbance')?>
 
 <h2>Changelog During Playtesting</h2>
 

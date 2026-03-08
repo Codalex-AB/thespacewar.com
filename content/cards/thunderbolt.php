@@ -1,8 +1,9 @@
-<p>Thunderbolt is a normal defensive spaceship with only the cost of 2 actions. Probably the weakest spaceship.</p>
+<p>Thunderbolt is a normal defensive spaceship but with a very interesting ability.</p>
 
 <h2>Compare this to</h2>
 
 <?=cardImage('the-gladiator')?>
+<?=cardImage('battlestar')?>
 
 <h2>Changelog During Playtesting</h2>
 

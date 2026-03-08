@@ -3,10 +3,12 @@
 <h2>Compare With</h2>
 
 <?=cardImage('great-plan')?>
+<?=cardImage('commander-dr-stein')?>
 
 <h2>Good cards against this</h2>
 
 <?=cardImage('luck')?>
+<?=cardImage('sabotage')?>
 
 <p>If you are certain that the card being searched for cost 2 or less it is better to counter with luck that card instead.</p>
 

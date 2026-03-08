@@ -1,5 +1,12 @@
 
+<p><em>The signal was faint, but the corruption was deep. Every transmission brought only decay.</em></p>
 
+<h2>Other cards that force the opponent to discard</h2>
+
+<?=cardImage('discovery')?>
+<?=cardImage('disturbing-sensor')?>
+<?=cardImage('sabotage')?>
+<?=cardImage('great-disturbance')?>
 
 <h2>Changelog During Playtesting</h2>
 

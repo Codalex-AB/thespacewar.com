@@ -1,6 +1,5 @@
 <p>Great card against both missiles and big spaceships. Excellent to be kept as a station card for later use.</p>
 
-
 <h2>Examples of missiles that it stops</h2>
 
 <?=cardImage('death-ray')?>
@@ -9,7 +8,6 @@
 <?=cardImage('fast-missile')?>
 <?=cardImage('cluster-nuke')?>
 <?=cardImage('alien-missile')?>
-
 
 <h2>Spaceships with high attack value</h2>
 
@@ -24,6 +22,12 @@
 <?=cardImage('time-warp')?>
 <?=cardImage('luck')?>
 <?=cardImage('fate')?>
+
+<h2>Great to protect spaceships such as</h2>
+
+<?=cardImage('time-travel-portal')?>
+<?=cardImage('hacker')?>
+<?=cardImage('death-ray-cannon')?>
 
 <h2>Rule Clarifications</h2>
 

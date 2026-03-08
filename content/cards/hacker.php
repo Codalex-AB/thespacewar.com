@@ -1,12 +1,18 @@
-<h2>Good Against</h2>
+<p><em>"In the digital frontier, the most powerful weapon isn't a laser—it's a keystroke. When you can slip through their firewalls undetected, you don't just capture their ships; you rewrite their reality."</em></p>
+
+<h2>Hacker is good Against</h2>
 
 <?=cardImage('starship')?>
 <?=cardImage('the-dark-destroyer')?>
 <?=cardImage('carrier')?>
 <?=cardImage('the-exterminator')?>
-<?=cardImage('titan')?>
-<?=cardImage('death-ray-cannon')?>
+<?=cardImage('explosive-missile')?>
+<?=cardImage('nuclear-missile')?>
+
+<h2>Good With</h2>
+
 <?=cardImage('time-travel-portal')?>
+<?=cardImage('death-ray-cannon')?>
 
 <h2>Changelog During Playtesting</h2>
 

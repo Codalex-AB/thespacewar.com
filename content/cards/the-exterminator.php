@@ -3,12 +3,9 @@
 <h2>Cards Good Against This</h2>
 
 <?=cardImage('nuclear-missile')?>
-<?=cardImage('fatal-error')?>
 <?=cardImage('emp-missile')?>
 <?=cardImage('target-missed')?>
 <?=cardImage('supernova')?>
-
-<p>All those 5 cards are really bad against The Exterminator, especially the first 2 which completely destroys it.</p>
 
 <h2>Cards Good With This</h2>
 

@@ -1,6 +1,4 @@
-<p>Destiny Decided is a great card to play when you have more cards on the table than the opponent and you are planning to win in 1-2 turns. You will use your spaceships/missiles to win the game and don't really need to play any more cards in order to win.</p>
-
-<p>It will seriously slow down the opponent in the end game when you normally play perhaps 4 cards per turn.</p>
+<p>Destiny Decided is a great card to play when you have more cards on the table than the opponent and you are planning to win in 1-2 turns. You will use your spaceships/missiles to win the game.</p>
 
 <h2>Key event cards that it stops</h2>
 

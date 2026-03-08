@@ -1,4 +1,6 @@
-<p>Battlestar has a bit high defense but is otherwise an ordinary spaceship.</p>
+<p><em>The Battlestar class was designed to be the backbone of the defensive fleet. Its thick hull and redundant systems allow it to withstand barrages that would shatter lesser vessels.</em></p>
+
+<p>Battlestar is a strong spaceship for only a cost of 2, with high defense.</p>
 
 <h2>Compare With</h2>
 

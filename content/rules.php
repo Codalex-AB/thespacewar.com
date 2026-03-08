@@ -73,7 +73,7 @@ require(ROOT.'view/head.php');
 <p>
   The number in the top-left corner is the <strong>Action Cost</strong>.<br>
   Actions are spent to play cards during the action phase.<br>
-  Cards with a cost of <strong>0</strong> may be played at any time (including during an opponent’s turn).<br>
+  Cards with a cost of <strong>0</strong> can be played at any time (including during an opponent’s turn).<br>
   If a card’s text contradicts the rules of the game, the card’s text takes precedence.
 </p>
 
@@ -234,10 +234,11 @@ require(ROOT.'view/head.php');
 <p><strong>Delayed</strong> – Ignore this card’s text box until the start of its owner’s next turn.</p>
 <p><strong>Discard</strong> – To move cards from a player’s hand to their discard pile. The owner chooses which cards are discarded unless stated to be random.</p>
 <p><strong>Discard from play</strong> – To move your own card from the play area to the discard pile.</p>
+<p><strong>Discard pile</strong> – Cards are placed face up and the contents are public information for both players.</p>
 <p><strong>Fast</strong> – Can move the first turn.</p>
 <p><strong>From anywhere</strong> – A player may search their draw pile, discard pile, or station cards. If a player searches their draw pile, it must be shuffled afterward.</p>
 <p><strong>No effect</strong> – Ignore all text in the card's text box. The card is still paid for, and duration cards with no effect are still handled normally during duration upkeep.</p>
-<p><strong>Paralyze</strong> – Turn the card sideways and it cannot do anything until repaired.</p>
+<p><strong>Paralyze</strong> – Turn the card sideways and it cannot do anything until repaired. Cannot recieve counters.</p>
 <p><strong>Put into play</strong> – To place a card directly into a player’s Home Zone without paying its cost. Cards put into play do not come from the hand and cannot be countered.</p>
 <p><strong>Slow</strong> – Each turn can either move or attack but not both.</p>
 

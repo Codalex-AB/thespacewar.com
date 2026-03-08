@@ -1,4 +1,6 @@
-<p>Disturbing Sensor is a spaceship but does not exist to attack but to disturb the hell out of the opponent.</p>
+<p><em>"The signal doesn't just jam their radar; it jams their resolve. By the time they realize they're blind, they've already lost the will to fight."</em></p>
+
+<p>A master of psychological and electronic warfare, the Disturbing Sensor is the ultimate tool for disruption. It doesn't need to fire a single shot to cripple an entire fleet's coordination by flooding frequencies with high-intensity chaotic resonance.</p>
 
 <h2>Compare With</h2>
 

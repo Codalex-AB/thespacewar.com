@@ -9,6 +9,10 @@
 
 <?=cardImage('commander-frank-johnson')?>
 
+<h2>Good Against</h2>
+
+<?=cardImage('obstacles')?>
+
 <h2>Changelog During Playtesting</h2>
 
 <ul>

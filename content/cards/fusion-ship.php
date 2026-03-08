@@ -4,6 +4,12 @@
 <?=cardImage('the-dark-destroyer')?>
 <?=cardImage('carrier')?>
 
+<h2>Good With</h2>
+
+<?=cardImage('drone')?>
+<?=cardImage('alien-missile')?>
+<?=cardImage('pursuiter')?>
+
 <h2>Changelog During Playtesting</h2>
 
 <ul>

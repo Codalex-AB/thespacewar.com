@@ -1,3 +1,5 @@
+<p><em>"The beam cut through the void, silent and absolute. It was not an attack; it was a statement. In the face of such power, the enemy was not merely defeated—they were erased."</em></p>
+
 <h2>Rule Clarifications</h2>
 
 <ul>

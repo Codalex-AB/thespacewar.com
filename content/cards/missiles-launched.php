@@ -1,15 +1,18 @@
 <p>Costly but really a great card as you can pick the missiles you need in the moment.</p>
 
-<h2>List of Missiles cards</h2>
+<h2>List of interesting Missiles cards</h2>
 
 <?=cardImage('explosive-missile')?>
 <?=cardImage('fast-missile')?>
 <?=cardImage('emp-missile')?>
 <?=cardImage('nuclear-missile')?>
+<?=cardImage('alien-missile')?>
+<?=cardImage('cluster-nuke')?>
 
 <h2>Good cards against this</h2>
 
 <?=cardImage('disturbing-sensor')?>
+<?=cardImage('disturbing-signals')?>
 
 <h2>Changelog During Playtesting</h2>
 

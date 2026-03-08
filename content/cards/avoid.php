@@ -1,4 +1,8 @@
-<p>Avoid is the only card that can counter big cards such as <a href="/cards/supernova">Supernova</a> and big spaceships.</p>
+<p>Avoid is able to counter big cards such as <a href="/cards/supernova">Supernova</a> and big spaceships.</p>
+
+<h2>Compare With</h2>
+
+<?=cardImage('cancel')?>
 
 <h2>How it can be stopped</h2>
 

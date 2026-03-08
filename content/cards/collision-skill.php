@@ -1,8 +1,11 @@
-<p>Excellent card when you have many drones in play.</p>
+<p><em>"The sky was thick with metal and fire. We didn't need to aim; we just needed to be in their way." — Swarm Commander Vael</em></p>
+
+<p>This card is exceptionally effective when fielding a high volume of Drones, turning your expendable units into lethal projectiles and maximizing the value of every collision.</p>
 
 <h2>Works Good With</h2>
 
 <?=cardImage('carrier')?>
+<?=cardImage('drone')?>
 
 <h2>Compare With</h2>
 
@@ -12,6 +15,8 @@
 
 <ul>
     <li>The card <a href='/cards/target-missed'>Target Missed</a> cannot stop collisions.</li>
+    <li>Collision Skill does not work on the turn it is played.</li>
+
 </ul>
 
 <h2>Changelog During Playtesting</h2>

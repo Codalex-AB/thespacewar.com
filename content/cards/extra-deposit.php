@@ -1,4 +1,6 @@
-<p>Excellent card to gain card advantage. Can really give give a big step forward in the beginning of the game.</p>
+<p><em>"Resources are the lifeblood of any fleet. With an extra deposit, you're not just building ships—you're building an empire."</em></p>
+
+<p>Excellent card to gain card advantage.</p>
 
 <h2>Good With</h2>
 
@@ -10,11 +12,17 @@
 <?=cardImage('good-karma')?>
 <?=cardImage('excellent-work')?>
 
+<h2>Protects against the following discard cards</h2>
+
+<?=cardImage('corrupted-outpost')?>
+<?=cardImage('discovery')?>
+<?=cardImage('disturbing-sensor')?>
+<?=cardImage('sabotage')?>
+<?=cardImage('great-disturbance')?>
+
 <h2>Good Against</h2>
 
 <?=cardImage('return')?>
-<?=cardImage('neutralization')?>
-
 
 <h2>Changelog During Playtesting</h2>
 

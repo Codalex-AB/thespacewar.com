@@ -1,3 +1,5 @@
+<p><em>"Even the smallest tool can fix the biggest problem. When you can patch up your defenses in the blink of an eye, you turn every near-disaster into a tactical advantage."</em></p>
+
 <p>Small Repair Ship is really a great card, especially because it can move the first turn and repair a big spaceship that has previously been targeted by EMP Missile making it possible for that to attack in the same turn.</p>
 
 <p>Keep in mind however that with a low cost of 2 actions it is a popular card being countered with luck.</p>
