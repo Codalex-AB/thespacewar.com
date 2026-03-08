@@ -1,8 +1,8 @@
 <p><em>"The most effective weapon is not the one that destroys, but the one that prevents. By removing the right piece at the right moment, you don't just win the battle—you dictate the entire war."</em></p>
 
-<p>Sabotage is one of those cards that when you need it you really need it. If you don't think you can find a good card to discard it is better to save it for later. Having it as a flipped station card ready for use any moment can also be great.</p>
+<p>Sabotage is one of those cards that matters most exactly when you need it. If you do not expect to hit anything important, it is usually better to save it for later. It is also excellent as a flipped station card that can be used at the perfect moment.</p>
 
-<h2>Example of cards to remove</h2>
+<h2>Examples of Cards to Remove</h2>
 
 <?=cardImage('supernova')?>
 <?=cardImage('target-missed')?>
@@ -15,13 +15,13 @@
 <?=cardImage('commander-dr-stein')?>
 <?=cardImage('deja-vu')?>
 
-<p>Play your sabotage directly after the opponent gets the needed card in hand.</p>
+<p>Play Sabotage directly after the opponent gets the card they need into hand.</p>
 
 <h2>Good Combo With</h2>
 
 <?=cardImage('obstacles')?>
 
-<h2>Other cards that force the opponent to draw</h2>
+<h2>Other Cards That Force the Opponent to Draw</h2>
 
 <?=cardImage('discovery')?>
 

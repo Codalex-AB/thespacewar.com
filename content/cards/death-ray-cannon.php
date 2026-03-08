@@ -2,7 +2,7 @@
 
 <p><strong>Tip:</strong> Remember to include at least one copy of <a href="/cards/death-ray">Death Ray</a> when playing with this card.</p>
 
-<h2>What can stop Death Ray Cannon?</h2>
+<h2>What Can Stop Death Ray Cannon?</h2>
 
 <?=cardImage('return')?>
 <?=cardImage('fatal-error')?>
@@ -13,7 +13,7 @@
 <?=cardImage('electrocution')?>
 <?=cardImage('nuclear-missile')?>
 
-<h2>Works Good with Death Ray Cannon</h2>
+<h2>Cards Good With Death Ray Cannon</h2>
 
 <?=cardImage('defense-cannon')?>
 <?=cardImage('time-warp')?>

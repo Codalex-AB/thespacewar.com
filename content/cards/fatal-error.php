@@ -1,4 +1,4 @@
-<p>Fatal Error is really a key card in your deck. How and when you play can really determine if you win or loose.</p>
+<p>Fatal Error is really a key card in your deck. How and when you play can really determine if you win or lose.</p>
 
 <h2>Rule Clarification</h2>
 

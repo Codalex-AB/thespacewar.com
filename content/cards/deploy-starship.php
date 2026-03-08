@@ -1,4 +1,4 @@
-<h2>Popular Cards to discard from play</h2>
+<h2>Popular Cards to Discard from Play</h2>
 
 <?=cardImage('satellite')?>
 <?=cardImage('station-repair')?>

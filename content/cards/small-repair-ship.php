@@ -11,7 +11,7 @@
     <li>No, it cannot repair anything nor itself if it has been paralyzed.</li>
 </ul>
 
-<h2>Compare to</h2>
+<h2>Compare With</h2>
 
 <?=cardImage('big-repair-ship')?>
 <?=cardImage('repair-ship')?>

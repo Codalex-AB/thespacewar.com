@@ -1,4 +1,4 @@
-<h2>Compare to</h2>
+<h2>Compare With</h2>
 
 <?=cardImage('luck')?>
 <?=cardImage('fate')?>

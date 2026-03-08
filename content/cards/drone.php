@@ -1,6 +1,6 @@
 <p>Drone is the only card you can have more than 3 copies of in your <a href='/constructed'>constructed deck</a>, you may have 10.</p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('full-attack')?>
 <?=cardImage('drone-leader')?>
@@ -8,7 +8,7 @@
 <?=cardImage('deploy-starship')?>
 <?=cardImage('collision-skill')?>
 
-<h2>Cards Good Against This</h2>
+<h2>Cards Good Against</h2>
 
 <?=cardImage('meteor-shower')?>
 <?=cardImage('trigger-happy-joe')?>

@@ -1,6 +1,6 @@
-<p><em>The Battlestar class was designed to be the backbone of the defensive fleet. Its thick hull and redundant systems allow it to withstand barrages that would shatter lesser vessels.</em></p>
+<p><em>The Battlestar class was designed to be the backbone of the defensive fleet. Its thick hull and redundant systems let it absorb barrages that would shatter lesser vessels.</em></p>
 
-<p>Battlestar is a strong spaceship for only a cost of 2, with high defense.</p>
+<p>Battlestar is a sturdy spaceship for only 2 actions, and its high defense makes it an efficient way to apply early pressure.</p>
 
 <h2>Compare With</h2>
 

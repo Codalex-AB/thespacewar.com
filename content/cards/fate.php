@@ -1,4 +1,3 @@
-
 <h2>Cards that cost 0 or 1</h2>
 
 <?=cardImage('target-missed')?>

@@ -5,7 +5,7 @@
 <?=cardImage('excellent-work')?>
 <?=cardImage('scout')?>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('commander-frank-johnson')?>
 

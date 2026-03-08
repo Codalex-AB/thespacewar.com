@@ -2,7 +2,7 @@
 
 <p>The ability to destroy any card on the table is truly a powerful ability.</p>
 
-<h2>Cards Good Against This</h2>
+<h2>Cards Good Against</h2>
 
 <?=cardImage('nuclear-missile')?>
 <?=cardImage('emp-missile')?>
@@ -10,9 +10,9 @@
 <?=cardImage('paralyzer')?>
 <?=cardImage('the-dark-destroyer')?>
 
-<p>Another The Dark Destroyer can be played to destroy the opponents The Dark Destroyer.</p>
+<p>Another The Dark Destroyer can be played to destroy the opponent's The Dark Destroyer.</p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('luck')?>
 <?=cardImage('destiny-decided')?>

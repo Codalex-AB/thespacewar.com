@@ -1,4 +1,4 @@
-<p>Excellent against big spaceships. Can of course also be used aggressively but tends to get destroyed before being able to hit the opponents station and winning the game, but in any case good to put extra pressure in your attack.</p>
+<p>Excellent against big spaceships. Can of course also be used aggressively but tends to get destroyed before being able to hit the opponent's station and winning the game, but in any case good to put extra pressure in your attack.</p>
 
 <h2>Good Against</h2>
 

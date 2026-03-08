@@ -1,6 +1,6 @@
-<p>Titan is really difficult to get rid off.</p>
+<p>Titan is really difficult to get rid of.</p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('small-repair-ship')?>
 <?=cardImage('big-repair-ship')?>

@@ -3,7 +3,7 @@
 <?=cardImage('good-karma')?>
 <?=cardImage('satellite')?>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('extra-deposit')?>
 

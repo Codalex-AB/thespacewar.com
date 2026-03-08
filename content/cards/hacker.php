@@ -9,7 +9,7 @@
 <?=cardImage('explosive-missile')?>
 <?=cardImage('nuclear-missile')?>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('time-travel-portal')?>
 <?=cardImage('death-ray-cannon')?>

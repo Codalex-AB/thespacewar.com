@@ -2,7 +2,7 @@
 
 <p>Excellent card to gain card advantage.</p>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <p>Cards that make you draw:</p>
 

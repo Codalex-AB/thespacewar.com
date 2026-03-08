@@ -1,6 +1,6 @@
-<p>Trigger-Happy Joe is a card that can be good in some situations, for example to destroy 2 different targets in a single turn. Together with Full Attack it becomes a truly great card doing 2 + 2 damage in a single turn.</p>
+<p>Trigger-Happy Joe is a card that can be good in some situations, for example to destroy two different targets in a single turn. Together with Full Attack it becomes a truly great card doing 2 + 2 damage in a single turn.</p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('full-attack')?>
 

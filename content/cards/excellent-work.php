@@ -9,7 +9,7 @@
 <?=cardImage('grand-opportunity')?>
 <?=cardImage('good-karma')?>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('commander-the-miller')?>
 

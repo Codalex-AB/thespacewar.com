@@ -1,4 +1,4 @@
-<p>Luck is one of those cards you get happy to get on your hand. With it you can counter a big part of the cards in the opponents deck.</p>
+<p>Luck is one of those cards you get happy to get on your hand. With it you can counter a big part of the cards in the opponent's deck.</p>
 
 <h2>Cards commonly countered by Luck</h2>
 

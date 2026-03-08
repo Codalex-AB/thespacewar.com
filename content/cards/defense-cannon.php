@@ -1,8 +1,8 @@
 <p><em>"The Defense Cannon is a testament to the Terrans pragmatic approach to warfare. It is not a weapon of conquest, but a shield made manifest—a deterrent that ensures the safety of our people through overwhelming firepower."</em></p>
 
-<p>Defense Cannon is great for attacking those enemy spaceships in your home zone.</p>
+<p>Defense Cannon is excellent at picking off enemy spaceships that enter your Home Zone.</p>
 
-<h2>Good targets</h2>
+<h2>Good Targets</h2>
 
 <?=cardImage('trigger-happy-joe')?>
 <?=cardImage('the-gladiator')?>
@@ -11,7 +11,7 @@
 <?=cardImage('alien-missile')?>
 <?=cardImage('pursuiter')?>
 
-<h2>Good against Defense Cannon</h2>
+<h2>Cards Good Against Defense Cannon</h2>
 
 <?=cardImage('acid-projectile')?>
 

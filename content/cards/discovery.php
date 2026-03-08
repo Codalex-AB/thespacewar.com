@@ -1,4 +1,4 @@
-<p>Discovery is a card of strategy. You can for example play it in the opponents turn and choose draw when the opponent already has too many cards in the hand. Or you can choose discard after the opponent has been drawing and you have no more cards in your hand. It could be used as a mill weapon etc.</p>
+<p>Discovery is a card of strategy. You can for example play it in the opponent's turn and choose draw when the opponent already has too many cards in the hand. Or you can choose discard after the opponent has been drawing and you have no more cards in your hand. It could be used as a mill weapon etc.</p>
 
 <h2>Good Cards with this</h2>
 
@@ -21,4 +21,5 @@
     <li>Buff in August 2019:<br>Drawing for the opponent is not any longer optional.</li>
     <li>September 2018: Created.</li>
 </ul>
+
 

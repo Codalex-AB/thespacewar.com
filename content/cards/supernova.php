@@ -1,8 +1,8 @@
 <p><em>"In the vastness of space, the most powerful weapon isn't a laser—it's a supernova. When you can unleash the fury of a dying star, you don't just destroy their ships; you rewrite their reality."</em></p>
 
-<p>The most powerful card in the game.</p>
+<p>Supernova is one of the most explosive reset buttons in the game and can end a battle on the spot.</p>
 
-<h2>What cards can stop Supernova?</h2>
+<h2>What Cards Can Stop Supernova?</h2>
 
 <?=cardImage('avoid')?>
 <?=cardImage('destiny-decided')?>
@@ -15,7 +15,7 @@
 <h2>Rule Clarifications</h2>
 
 <ul>
-    <li>Supernova cannot cause a draw as if you use this to kill the commander of the opponent you win the game before you get the damage.</li>
+    <li>Supernova cannot cause a draw. If it defeats the opponent's commander, you win before the damage to your own station is applied.</li>
 </ul>
 
 <h2>Changelog During Playtesting</h2>

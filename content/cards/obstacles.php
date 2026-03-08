@@ -1,6 +1,6 @@
 <p><em>"In the vastness of space, the most dangerous traps aren't hidden in the dark—they're laid out in the open, waiting for the unwary to stumble into them. When you can control the very ground beneath your enemy's feet, you don't just block their path; you dictate their fate."</em></p>
 
-<p>If you have this out and have managed to deal some damage to the oppoents station you can use Return or Sabotage against those flipped station cards and seriously crippling the opponent.</p>
+<p>If you have this in play and have already damaged the opponent's station, Return or Sabotage can remove those flipped station cards and seriously cripple the opponent.</p>
 
 <h2>Works Good with Obstacles</h2>
 
@@ -15,7 +15,7 @@
 <h2>Rule Clarifications</h2>
 
 <ul>
-    <li>Players can still move a station card from one row to another in their action phase as normal.</li>
+    <li>Players can still move a station card from one row to another during their action phase as normal.</li>
 </ul>
 
 <h2>Changelog During Playtesting</h2>

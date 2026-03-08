@@ -1,4 +1,4 @@
-<p>This card really improves the strategy of the game. Use it to reinforce your strategy, take the card you miss for win or the one that will save you from loosing.</p>
+<p>This card really improves the strategy of the game. Use it to reinforce your strategy, take the card you miss for win or the one that will save you from losing.</p>
 
 <h2>Compare With</h2>
 

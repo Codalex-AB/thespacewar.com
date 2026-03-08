@@ -1,6 +1,6 @@
 <p><em>"The swarm is chaos, but chaos needs a conductor. I am the will that guides the storm."</em></p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('drone')?>
 <?=cardImage('carrier')?>

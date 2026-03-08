@@ -1,6 +1,6 @@
-<p>Probably a must have card for any fast decks.</p>
+<p>Probably a must-have card for any fast decks.</p>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('fast-missile')?>
 <?=cardImage('explosive-missile')?>

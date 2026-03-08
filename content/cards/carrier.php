@@ -1,9 +1,9 @@
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('drone')?>
 <?=cardImage('moment-of-peace')?>
 
-<h2>Cards Good Against This</h2>
+<h2>Cards Good Against</h2>
 
 <?=cardImage('emp-missile')?>
 <?=cardImage('paralyzer')?>

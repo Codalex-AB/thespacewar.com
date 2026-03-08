@@ -1,6 +1,6 @@
 <p>This is truly a card that has made people win in this game. It has a high cost but makes your spaceships so much better.</p>
 
-<h2>Good against this</h2>
+<h2>Cards Good Against</h2>
 
 <?=cardImage('neutralization')?>
 <?=cardImage('supernova')?>

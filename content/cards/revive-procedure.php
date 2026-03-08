@@ -3,7 +3,7 @@
 <?=cardImage('deja-vu')?>
 <?=cardImage('perfect-plan')?>
 
-<h2>Good With</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('drone')?>
 

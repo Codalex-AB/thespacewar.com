@@ -1,13 +1,13 @@
-<p>The Exterminator is the second biggest spaceship in the game. It is slow but only cost 5 to play.</p>
+<p>The Exterminator is the second biggest spaceship in the game. It is slow but only costs 5 to play.</p>
 
-<h2>Cards Good Against This</h2>
+<h2>Cards Good Against</h2>
 
 <?=cardImage('nuclear-missile')?>
 <?=cardImage('emp-missile')?>
 <?=cardImage('target-missed')?>
 <?=cardImage('supernova')?>
 
-<h2>Cards Good With This</h2>
+<h2>Cards Good With</h2>
 
 <?=cardImage('luck')?>
 <?=cardImage('destiny-decided')?>
@@ -21,6 +21,6 @@
 
 <ul>
     <li>Nerf in January 2026:<br>Defense value decreased from 7 to 6.</li>
-    <li>May 2019:<br>Now cost 5 insteaf of 6 but is now Slow.</li>
+    <li>May 2019:<br>Now cost 5 instead of 6 but is now Slow.</li>
     <li>September 2018: Created.</li>
 </ul>
