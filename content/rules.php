@@ -153,7 +153,7 @@ require(ROOT.'view/head.php');
         Spend actions to play cards from hand.
       </li>
       <li>
-        Station management (optional): Once per turn, you may either add 1 card from hand to a station row (max 7 total) OR move a station card to a different row. 
+        Station management (optional): Once per turn, you may either add 1 card from hand face down to a station row (max 7 total) OR move a station card to a different row. 
       </li>
       <li>Unused actions are lost as the action phase ends.</li>
     </ul>
@@ -211,6 +211,7 @@ require(ROOT.'view/head.php');
 <p>
   Some spaceships can repair. Repair works like attacking in terms of range: a ship can repair only a target in the same zone.
   Repair removes damage from the target, and if the target is paralyzed, repair also removes paralysis.
+  A spaceship cannot attack the enemy station on the same turn its paralysis is removed.
   A repair ship may repair itself unless it is paralyzed.
   Commanders cannot be repaired.
 </p>
