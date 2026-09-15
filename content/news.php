@@ -77,10 +77,10 @@ require(ROOT.'view/head.php');
     <li>New website with account registration (December 2019).</li>
     <li>Creating the list of cards for The Swarm deck (September 2019).</li>
     <li>Rating system for online play (July 2019)</li>
-    <li><a href='/cards/'>The Terrans deck cards</a> and <a href='/rules'>Game rules</a> has been tested and revised until satisfaction (100+ plays, July-October 2018)</li>
-    <li>Commander cards for the <a href='/cards/'>The Terrans deck</a> (June 2019).</li>
+    <li><a href='/the-terrans'>The Terrans deck cards</a> and <a href='/rules'>Game rules</a> has been tested and revised until satisfaction (100+ plays, July-October 2018)</li>
+    <li>Commander cards for the <a href='/the-terrans'>The Terrans deck</a> (June 2019).</li>
     <li>Custom card generator script completed (December 2018)</li>
-    <li>Illustrations for the <a href='/cards/'>The Terrans deck cards</a> (August-September 2018)</li>
+    <li>Illustrations for the <a href='/the-terrans'>The Terrans deck cards</a> (August-September 2018)</li>
     <li>Card template design (December 2018)</li>
     <li>Game Rules (July-October 2018)</li>
 </ul>

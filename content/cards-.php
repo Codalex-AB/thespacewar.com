@@ -1,92 +1,84 @@
 <?php
-$title_tag = 'Full list of cards | TheSpaceWar.com';
+$title_tag = 'The Cards | TheSpaceWar.com';
 require(ROOT.'view/head.php');
 ?>
 
 <h1>The Cards</h1>
 
-<p>Below are the cards belonging to the The Terrans deck.</p>
+<p>The Space War includes three preset decks. Each deck has its own commanders, cards, and style of play:</p>
 
-<h2>Additional decks</h2>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:35px;text-align:center;margin:30px 0;">
+    <a href="/the-terrans" style="text-decoration:none;">
+        <img style="display:block;height:120px;width:120px;margin-bottom:8px;" src="https://images.thespacewar.com/factions/white/the-terrans.png" alt="The Terrans faction logo">
+        <strong>The Terrans</strong>
+    </a>
+    <a href="/the-swarm" style="text-decoration:none;">
+        <img style="display:block;height:120px;width:120px;margin-bottom:8px;" src="https://images.thespacewar.com/factions/white/the-swarm.png" alt="The Swarm faction logo">
+        <strong>The Swarm</strong>
+    </a>
+    <a href="/united-stars" style="text-decoration:none;">
+        <img style="display:block;height:120px;width:120px;margin-bottom:8px;" src="https://images.thespacewar.com/factions/white/united-stars.png" alt="United Stars faction logo">
+        <strong>United Stars</strong>
+    </a>
+</div>
+
 <ul>
-    <li><a href='/the-swarm'>The Swarm</a> is a very fast and agressive an alien race which can quickly overwhelm any opponent.</li>
-    <li><a href='/united-stars'>United Stars</a> is an alliance formed by a group of advanced developed planets. They use powerful advanced technology including a deadly starship.</li>
+    <li><a href='/the-terrans'>The Terrans</a> is a balanced deck with cards for many different situations.</li>
+    <li><a href='/the-swarm'>The Swarm</a> is a very fast and aggressive alien race that can quickly overwhelm any opponent.</li>
+    <li><a href='/united-stars'>United Stars</a> is an alliance of advanced planets that uses powerful technology, including a deadly starship.</li>
 </ul>
 
-<p>Complete card list in table format can be found <a href='/card-list'>here</a>.</p>
+<p>Below are a few examples of each card type.</p>
+
+<a class="big-button" style="margin:30px auto;" href="/card-list">View the complete card list →</a>
 
 <div class="cards">
 
 <h2>Commanders</h2>
-<p>You choose your commander at the beginning of the game after you have established your start hand. Each commander gives you a unique power or ability.</p>
+<p>You choose your commander at the beginning of the game. Each commander gives you a unique power or ability.</p>
 
 <?php
 $commander_data = commanderData();
-foreach ($commander_data as $commander_slug => $commander) {
-    if ($commander['deck'] != 1) continue;
+foreach (['liana-henders', 'zuuls', 'capt-shera-kinson'] as $commander_slug) {
+    $commander = $commander_data[$commander_slug];
     echo "<a href='/commanders/".$commander_slug."'><img src='https://images.thespacewar.com/commander-".$commander['id'].".png'></a>";
 }
 ?>
 
 <h2>Spaceship Cards</h2>
-<p>These can move and attack. Sometimes they have special abilities.</p>
+<p>Spaceships can move and attack. Some also have special abilities.</p>
 <?=cardImage('the-dark-destroyer')?>
-<?=cardImage('the-exterminator')?>
-<?=cardImage('stormfalcon')?>
-<?=cardImage('titan')?>
-<?=cardImage('pursuiter')?>
-<?=cardImage('trigger-happy-joe')?>
-<?=cardImage('thunderbolt')?>
-<?=cardImage('the-gladiator')?>
-<?=cardImage('the-shade')?>
-<?=cardImage('hunter')?>
-<?=cardImage('small-repair-ship')?>
-<?=cardImage('big-repair-ship')?>
-<?=cardImage('battlestar')?>
-<?=cardImage('disturbing-sensor')?>
-<?=cardImage('deadly-sniper')?>
-<?=cardImage('the-liberator')?>
+<?=cardImage('drone')?>
+<?=cardImage('starship')?>
 
 <h2>Event Cards</h2>
-<p>Playing an event card means that something happens a single time. The card gets placed directly in the discard pile.</p>
+<p>An event happens once when played, then the card is placed in the discard pile.</p>
 <?=cardImage('excellent-work')?>
-<?=cardImage('supernova')?>
-<?=cardImage('target-missed')?>
-<?=cardImage('missiles-launched')?>
-<?=cardImage('perfect-plan')?>
-<?=cardImage('grand-opportunity')?>
-<?=cardImage('luck')?>
-<?=cardImage('fatal-error')?>
-<?=cardImage('discovery')?>
-<?=cardImage('sabotage')?>
+<?=cardImage('sacrifice')?>
+<?=cardImage('brilliance')?>
 
 <h2>Duration Cards</h2>
-<p>These cards stay on the table and alters the game in some way. The action cost of the card has to be paid for each turn for it to continue be in play.</p>
+<p>Duration cards stay in play and alter the game while their action cost is paid each turn.</p>
 <?=cardImage('full-attack')?>
-<?=cardImage('good-karma')?>
-<?=cardImage('neutralization')?>
-<?=cardImage('corrupted-outpost')?>
-<?=cardImage('avoid')?>
-<?=cardImage('destiny-decided')?>
+<?=cardImage('time-warp')?>
+<?=cardImage('moment-of-peace')?>
 
 <h2>Missile Cards</h2>
-<p>More powerful and quicker than spaceships but they are destroyed when hitting their target.</p>
+<p>Missiles are powerful and fast, but they are destroyed after attacking.</p>
 <?=cardImage('explosive-missile')?>
-<?=cardImage('fast-missile')?>
-<?=cardImage('emp-missile')?>
-<?=cardImage('nuclear-missile')?>
+<?=cardImage('alien-missile')?>
+<?=cardImage('cluster-nuke')?>
 
 <h2>Defense Cards</h2>
-<p>These defends your space station, they cannot move.</p>
+<p>Defense cards protect your space station and cannot move.</p>
 <?=cardImage('energy-shield')?>
-<?=cardImage('defense-cannon')?>
+<?=cardImage('shield')?>
+<?=cardImage('death-ray-cannon')?>
 
 <h2>Station Rule Cards</h2>
-<p>These are for remembering the rules and have no function in the game.</p>
-<img src="https://images.thespacewar.com/station-card-top.jpg">
-<img src="https://images.thespacewar.com/station-card-middle.jpg">
-<img src="https://images.thespacewar.com/station-card-bottom.jpg">
+<p>These cards help players remember the station rules and are not part of a deck.</p>
+<img src="https://images.thespacewar.com/station-card-top.jpg" alt="Draw phase station rule card">
+<img src="https://images.thespacewar.com/station-card-middle.jpg" alt="Action phase station rule card">
+<img src="https://images.thespacewar.com/station-card-bottom.jpg" alt="Discard phase station rule card">
+
 </div>
-
-
-
