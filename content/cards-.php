@@ -28,9 +28,9 @@ require(ROOT.'view/head.php');
     <li><a href='/united-stars'>United Stars</a> is an alliance of advanced planets that uses powerful technology, including a deadly starship.</li>
 </ul>
 
-<p>Below are a few examples of each card type.</p>
-
 <a class="big-button" style="margin:30px auto;" href="/card-list">View the complete card list →</a>
+
+<p>Below are 3 examples of each card type.</p>
 
 <div class="cards">
 
@@ -39,7 +39,7 @@ require(ROOT.'view/head.php');
 
 <?php
 $commander_data = commanderData();
-foreach (['liana-henders', 'zuuls', 'capt-shera-kinson'] as $commander_slug) {
+foreach (['liana-henders', 'zuuls', 'zyre'] as $commander_slug) {
     $commander = $commander_data[$commander_slug];
     echo "<a href='/commanders/".$commander_slug."'><img src='https://images.thespacewar.com/commander-".$commander['id'].".png'></a>";
 }
@@ -53,27 +53,27 @@ foreach (['liana-henders', 'zuuls', 'capt-shera-kinson'] as $commander_slug) {
 
 <h2>Event Cards</h2>
 <p>An event happens once when played, then the card is placed in the discard pile.</p>
-<?=cardImage('excellent-work')?>
+<?=cardImage('missiles-launched')?>
 <?=cardImage('sacrifice')?>
 <?=cardImage('brilliance')?>
 
 <h2>Duration Cards</h2>
 <p>Duration cards stay in play and alter the game while their action cost is paid each turn.</p>
-<?=cardImage('full-attack')?>
+<?=cardImage('avoid')?>
 <?=cardImage('time-warp')?>
 <?=cardImage('moment-of-peace')?>
 
 <h2>Missile Cards</h2>
 <p>Missiles are powerful and fast, but they are destroyed after attacking.</p>
 <?=cardImage('explosive-missile')?>
-<?=cardImage('alien-missile')?>
+<?=cardImage('acid-projectile')?>
 <?=cardImage('cluster-nuke')?>
 
 <h2>Defense Cards</h2>
 <p>Defense cards protect your space station and cannot move.</p>
 <?=cardImage('energy-shield')?>
 <?=cardImage('shield')?>
-<?=cardImage('death-ray-cannon')?>
+<?=cardImage('mega-shield')?>
 
 <h2>Station Rule Cards</h2>
 <p>These cards help players remember the station rules and are not part of a deck.</p>
