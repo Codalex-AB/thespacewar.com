@@ -39,7 +39,7 @@ require(ROOT.'view/head.php');
 
     <p>Play seamlessly in your browser across all devices, or print and play offline.</p>
 
-    <p>Jump in with 3 carefully constructed preset decks, or build your own to explore deep strategic possibilities.</p>
+    <p>Jump in with 3 ready-to-play preconstructed decks, or build your own to explore deep strategic possibilities.</p>
 
 </div>
 
@@ -110,7 +110,7 @@ echo '<p>Gold framed '.$weekly_offer['name'].' for only <strong>'.$weekly_offer[
     <li>Free to play online in your web browser at thespacewar.com</li>
     <li>Print and play offline for free.</li>
     <li>Focus on how your play your cards instead of which cards you have</li>
-    <li>Choose between 3 preset decks or mix the cards to make your own unique deck</li>
+    <li>Choose between 3 preconstructed decks or mix the cards to make your own unique deck</li>
     <li>Each card can be played in several ways but the game is still simple and smooth to play</li>
     <li>Skill based with focus on competitive play, leaderboard on the site.</li>
     <li>Player interaction with counters and reactions </li>

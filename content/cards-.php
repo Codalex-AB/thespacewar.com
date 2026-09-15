@@ -5,7 +5,7 @@ require(ROOT.'view/head.php');
 
 <h1>The Cards</h1>
 
-<p>The Space War includes three preset decks. Each deck has its own commanders, cards, and style of play:</p>
+<p>The Space War includes three ready-to-play preconstructed decks. Each deck has its own commanders, cards, and style of play:</p>
 
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:35px;text-align:center;margin:30px 0;">
     <a href="/the-terrans" style="text-decoration:none;">

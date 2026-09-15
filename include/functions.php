@@ -1045,7 +1045,7 @@ function getRandomCard() : array
 {
     $normal_cards = getCardData();
     foreach ($normal_cards as $normal_card) {
-        // 3 preset decks, each having 60 cards = 180 cards.
+        // 3 preconstructed decks, each having 60 cards = 180 cards.
         for ($i=0; $i < $normal_card['copies']; $i++) { 
             $new_array[] = $normal_card;
         }

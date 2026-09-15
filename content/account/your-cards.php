@@ -328,7 +328,7 @@ echo $outputs;
 <p>If you are a good regular player and have some luck you will probably be able to earn a good chunk of money.</p>
 
 <h3>How Does the Rarity of Cards Work?</h3>
-<p>With "random card" is meant the same as if you would mix all the cards of the preset decks together and pick 1 card at random. Meaning that for example there is a higher chance to receive Drone (15 copies) than for example Titan (1 copy). The mixing is reset for each card you receive, even if you receive several cards at the same time.</p>
+<p>With "random card" is meant the same as if you would mix all the cards of the preconstructed decks together and pick 1 card at random. Meaning that for example there is a higher chance to receive Drone (15 copies) than for example Titan (1 copy). The mixing is reset for each card you receive, even if you receive several cards at the same time.</p>
 
 <?php
 $result = $pdo->run("SELECT * FROM credits_spent WHERE `user_id` = ? ORDER BY id DESC;", [$logged_in['id']])->fetchAll();

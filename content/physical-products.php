@@ -11,7 +11,7 @@ require(ROOT.'view/head.php');
 <h2>Starter Box</h2>
 
 <ul>
-    <li>180 cards: 60 cards of each of the 3 preset decks.</li>
+    <li>180 cards: 60 cards from each of the 3 preconstructed decks.</li>
     <li>1 card of each the 14 commanders.</li>
     <li>1 extra random shiny foil card (can be sold on ebay).</li>
     <li>Rule booklet.</li>
@@ -20,6 +20,6 @@ require(ROOT.'view/head.php');
     <li>Sold for around $39?</li>
 </ul>
 
-<h2>Preset Decks</h2>
+<h2>Preconstructed Decks</h2>
 
-<p>60 cards of one of the preset decks with their commanders. Sold for around $14?</p>
+<p>60 cards from one of the preconstructed decks with its commanders. Sold for around $14?</p>
