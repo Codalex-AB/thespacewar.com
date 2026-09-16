@@ -15,6 +15,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Nerf in September 2026:<br>Defense value increased from 3 to 5. "Discard from play to fully repair any spaceship anywhere" was changed to "Repair 2 damage to a spaceship in your Home Zone."</li>
     <li>Nerf in March 2022: Option to repair 5 damage removed.</li>
     <li>April 2020: Created.</li>
 </ul>

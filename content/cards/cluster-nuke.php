@@ -17,5 +17,6 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Nerf in September 2026:<br>Defense value reduced from 3 to 2.</li>
     <li>February 2020: Created.</li>
 </ul>

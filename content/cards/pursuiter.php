@@ -16,6 +16,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Nerf in September 2026:<br>Its delayed ability to destroy itself and deal 4 damage to a target in the same zone (collision) was removed. It now has no special abilities.</li>
     <li>Nerf in April 2019:<br>Cannot anymore do collision the first turn.</li>
     <li>September 2018: Created.</li>
 </ul>

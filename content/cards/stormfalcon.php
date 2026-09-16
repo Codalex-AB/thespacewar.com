@@ -13,5 +13,6 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Buff in September 2026:<br>Defense value increased from 3 to 4.</li>
     <li>September 2018: Created.</li>
 </ul>

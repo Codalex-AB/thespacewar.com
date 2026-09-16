@@ -25,5 +25,6 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Nerf in September 2026:<br>Instead of costing 3 additional actions to play, cards now cost 1 additional action for each station card in the player’s second row.</li>
     <li>September 2019: Created.</li>
 </ul>

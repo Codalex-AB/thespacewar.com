@@ -20,6 +20,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Buff in September 2026:<br>Defense value increased from 6 to 7.</li>
     <li>Nerf in January 2026:<br>Defense value decreased from 7 to 6.</li>
     <li>May 2019:<br>Now cost 5 instead of 6 but is now Slow.</li>
     <li>September 2018: Created.</li>

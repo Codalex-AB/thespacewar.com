@@ -11,6 +11,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Buff in September 2026:<br>Defense value decreased from 6 to 5. Cost decreased from 3 to 2.</li>
     <li>Buff in December 2025:<br>Defense value increased from 5 to 6.</li>
     <li>April 2020: Created.</li>
 </ul>

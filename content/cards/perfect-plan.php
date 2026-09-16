@@ -15,5 +15,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Nerf in September 2026:<br>Added: "Then discard a card."</li>
     <li>September 2018: Created.</li>
 </ul>
+

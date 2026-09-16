@@ -14,9 +14,9 @@
 <?=cardImage('target-missed')?>
 <?=cardImage('destiny-decided')?>
 
-<h2>Meaning of "Damage goes through shield"</h2>
+<h2>Meaning of "Excess damage goes through shields"</h2>
 
-<p>It means that if you have the Nuclear Missile in the enemy zone and attack a shield with for example 4 life remaining it will mean that the shield gets destroyed and the 6 remaining damage will be dealt to the enemy station.</p>
+<p>The shield absorbs damage equal to its remaining defense, and any excess damage is dealt to the enemy station. For example, if Nuclear Missile attacks a shield with 4 defense remaining, the shield is destroyed and the remaining 6 damage is dealt to the enemy station.</p>
 
 <h2>Suggested rule</h2>
 
@@ -26,7 +26,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>August 2020:<br>New mechanic created and added to this card: Damage goes through shield.</li>
+    <li>August 2020:<br>New mechanic added to this card: Excess damage goes through shields.</li>
     <li>September 2018: Created.</li>
 </ul>
 

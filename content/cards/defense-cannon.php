@@ -18,7 +18,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Buff in August 2026:<br>Attack value reduced from 3 to 1 but can now attack twice per turn which is better.</li>
+    <li>Buff in September 2026:<br>Cost increased from 1 to 2, and attack value decreased from 3 to 2. It can now be attacked when its owner has at least 2 station damage instead of 3.</li>
     <li>Buff in December 2025:<br>Attack value increased from 2 to 3. Can only be attacked if the owner has at least 3 station damage.</li>
     <li>Buff in September 2021:<br>Now cannot be attacked if you have a shield.</li>
     <li>Buff in July 2021: Earlier a simple 4/1 that could not move.</li>

@@ -9,5 +9,6 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
+    <li>Buff in September 2026:<br>You may now draw a card after playing it, but each player may have only 1 shield in play.</li>
     <li>September 2019: Created.</li>
 </ul>

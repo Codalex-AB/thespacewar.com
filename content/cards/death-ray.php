@@ -23,7 +23,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>August 2020:<br>New mechanic created and added to this card: Damage goes through shield.</li>
+    <li>August 2020:<br>New mechanic added to this card: Excess damage goes through shields.</li>
     <li>April 2020: Created.</li>
 </ul>
 
