@@ -39,6 +39,7 @@ $internal_redirects = [
     'cards/surprise-attack' => 'cards/ambush',
     'cards/over-capacity' => 'cards/corrupted-outpost',
     'cards/secret-deposit' => 'cards/extra-deposit',
+    'cards/deploy-starship' => 'cards/deploy-spaceship',
 ];
 
 
