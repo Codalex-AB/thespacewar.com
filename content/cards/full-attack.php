@@ -14,7 +14,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Rework in September 2026:<br>Now provides +2 to attack value instead of +1, but only affects spaceships that cost more than 1.</li>
+    <li>Rework in October 2026:<br>Earlier it gave all your spaceships +1 in attack value.</li>
     <li>Nerf in January 2020:<br>Used to cost 3 and also made your spaceships fast. But I changed because it would be too good when playing constructed and using a deck similar to The Swarm.</li>
     <li>September 2018: Created.</li>
 </ul>

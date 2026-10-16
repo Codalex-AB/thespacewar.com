@@ -18,6 +18,6 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Nerf in September 2026:<br>"You may draw a card" was changed to "You may take 1 station damage to draw a card."</li>
+    <li>Nerf in October 2026:<br>"You may draw a card" was changed to "if you have fewer cards in hand than your opponent, you may draw a card."</li>
     <li>September 2019: Created.</li>
 </ul>

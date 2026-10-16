@@ -13,7 +13,7 @@
 <h2>Changelog During Playtesting</h2>
 
 <ul>
-    <li>Nerf in August 2026:<br>"Discard a card" changed to "Discard 2 cards".</li>
+    <li>Nerf in October 2026:<br>Discarding a card is now part of the cost of playing the card.</li>
     <li>Nerf in December 2025:<br>Discarding a card is required to counter a card. Cannot be done if no cards in hand.</li>
     <li>April 2020: Created.</li>
 </ul>

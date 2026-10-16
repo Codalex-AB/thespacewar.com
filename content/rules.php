@@ -231,7 +231,7 @@ require(ROOT.'view/head.php');
 
 <h2>Definitions / Keywords</h2>
 <p><strong>Ability</strong> – An action a spaceship card may perform instead of attacking.</p>
-<p><strong>Counter a card</strong> – To cancel a card as it is played. Ignore its text. It goes to the discard pile and any action cost spent to play it is lost.</p>
+<p><strong>Counter a card</strong> – To cancel a card as it is played. Ignore its text. It goes to the discard pile. Any costs paid to play it are lost.</p>
 <p><strong>Counters</strong> – Some cards gain counters. Use a die to track the number of counters on that card.</p>
 <p><strong>Delayed</strong> – Ignore this card’s text box until the start of its owner’s next turn.</p>
 <p><strong>Discard</strong> – To move cards from a player’s hand to their discard pile. The owner chooses which cards are discarded unless stated to be random.</p>

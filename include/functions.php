@@ -878,14 +878,14 @@ function commanderData() : array
         ],
         'dr-stein' => [
             'id' => 5,
-            'life' => 1,
+            'life' => 3,
             'deck' => 3,
             'name' => 'Dr. Stein',
             'title' => 'Master Strategist',
             'rules' => 'Spend 1 action, discard a card and take 2 station damage: Search your draw pile for a card, shuffle, then put it on top.',
             'lore' => 'With extreme intelligence and focus, Dr. Stein can calculate exactly how to win. Once he commits to a strategy, he does not care what sacrifices are required to carry out The True Plan.',
             'changelog' => [
-                'Nerf in August 2026: Ability now costs 1 action and it also requires to discard a card. Life also reduced from 2 to 1.',
+                'Nerf in August 2026: Ability now costs 1 action and it also requires to discard a card. Life increased from 1 to 3.',
                 'Nerf in December 2025: Now a single ability. Earlier it was that you could discard a card to draw a card up to 3 times in your action phase and also take a damage to your station to draw a card.',
                 'Nerf in February 2023: Perfect Plan ability replaced with draw a card.',
                 'Nerf in August 2021: Perfect Plan ability can now only be used once per turn.',
@@ -924,9 +924,10 @@ function commanderData() : array
             'deck' => 2,
             'name' => 'Crakux',
             'title' => 'Rage Incarnate',
-            'rules' => 'Your Drones get +1 attack.',
+            'rules' => 'All your spaceships get +1 attack.',
             'lore' => 'Crakux, leader of the Zoleons, has sworn together with his Drones to hunt down and destroy every single one of his enemies. As everybody probably knows by now, the home planet of the Zoleons was recently destroyed in the last war, a tragedy that fuels his rage.',
             'changelog' => [
+                'Buff in October 2026: Now all your spaceships and not only Drones get +1 attack, to better suit the constructed format and also a needed buff.',
                 'July 2020: Created.',
             ],
         ],
