@@ -6,3 +6,5 @@ Disallow: /log-game
 Disallow: /logout
 Disallow: /forgot-password
 Disallow: /print/cards?card_list
+Disallow: /deck
+Disallow: /users/
