@@ -240,6 +240,16 @@ function displayCard(string $slug) : string
     $title_tag = $a['name'].' | TheSpaceWar.com';
     require(ROOT.'view/head.php');
 
+    $faction_pages = [
+        1 => '/the-terrans',
+        2 => '/the-swarm',
+        3 => '/united-stars',
+    ];
+    $deck_name = $a['deck_name'];
+    if (isset($faction_pages[$a['deck_id']])) {
+        $deck_name = '<a href="'.$faction_pages[$a['deck_id']].'">'.$deck_name.'</a>';
+    }
+
     $return = '<h1>'.$a['name'].'</h1>';
     $return .= '<img src="https://images.thespacewar.com/card-'.$a['id'].'.jpg" class="big">
     <table>
@@ -269,7 +279,7 @@ function displayCard(string $slug) : string
     $return .= '
         <tr>
             <th>Deck</th>
-            <td>'.$a['deck_name'].'</td>
+            <td>'.$deck_name.'</td>
         </tr>
         <tr>
             <th>Copies</th>
