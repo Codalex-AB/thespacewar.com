@@ -844,14 +844,14 @@ function commanderData() : array
         ],
         'keve-bakins' => [
             'id' => 2,
-            'life' => 5,
+            'life' => 6,
             'deck' => 1,
             'name' => 'Keve Bakins',
             'title' => 'Tactical Organizer',
             'rules' => 'Action phase: Freely rearrange your station cards.<br><br>Station damage: Look at your station cards. You choose which are flipped.',
             'lore' => '"What matters in war is not strength, but the ability to reorganize resources and adapt faster than your enemy."',
             'changelog' => [
-                'Buff in August 2026: Life increased from 3 to 5.',
+                'Buff in October 2026: Life increased from 3 to 6.',
                 'Buff in December 2025: Second ability added (look at station cards and choose which are flipped).',
                 'June 2019: Created.',
             ],
