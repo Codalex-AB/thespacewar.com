@@ -971,8 +971,8 @@ function commanderData() : array
             'deck' => 3,
             'name' => 'Capt. Shera Kinson',
             'title' => 'Safe Deployment',
-            'rules' => 'Spend 8 actions:<br>Search your draw pile or station cards for the Starship and put it into play.',
-            'lore' => 'Capt. Shera Kinson is known throughout United Stars for relentless preparation. Through ironclad protocols and secured command channels, she orders the Starship’s deployment with total certainty. Nothing can prevent it.',
+            'rules' => 'Spend 8 actions:<br>Search your draw pile or station cards for any spaceship and put it into play.',
+            'lore' => 'Capt. Shera Kinson is known throughout United Stars for relentless preparation. Through ironclad protocols and secured command channels, she orders the deployment with total certainty. Nothing can prevent it.',
             'changelog' => [
                 'Buff in August 2026: Ability now cost 8 actions and not 10.',
                 'Buff in January 2026: The Starship can now also be taken from the station cards, not anymore limited to only the draw pile.',
