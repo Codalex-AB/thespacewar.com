@@ -117,7 +117,7 @@ require(ROOT.'view/head.php');
     <h3>Defense <span style="font-weight:400;">(green)</span></h3>
     <p>
       Defense cards (such as shields and cannons) remain in the Home Zone and cannot move.
-      You can only have one shield in play at a time.
+      You can only have one shield in play at a time; playing another shield moves the existing shield to the discard pile.
       <strong>Shields</strong> must be destroyed before the station can be attacked.
       Cannons attack during the attack phase.
     </p>
