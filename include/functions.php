@@ -904,14 +904,13 @@ function commanderData() : array
         ],
         'the-miller' => [
             'id' => 6,
-            'life' => 5,
+            'life' => 6,
             'deck' => 1,
             'name' => 'The Miller',
             'title' => 'Sentient AI',
-            'rules' => 'At any time instead of drawing a card, you may force the opponent to discard the top 3 cards from their draw pile.',
+            'rules' => 'At any time instead of drawing a card, you may force the opponent to discard the top 2 cards from their draw pile.',
             'lore' => 'The Miller is feared across the galaxy. This AI has engineered technology that drains enemy stations in ways no one can explain. How it earned its alias remains unknown.',
             'changelog' => [
-                'Buff in August 2026: Ability now mills 3 cards instead of 2. Life decreased from 6 to 5.',
                 'June 2019: Created.',
             ],
         ],
