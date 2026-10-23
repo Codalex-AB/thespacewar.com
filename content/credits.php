@@ -15,6 +15,8 @@ require(ROOT.'view/head.php');
 <p>Gabriel Stiernström, Luca Oleastri, Marco A. Aguilar and others</p>
 <h3>Developer of online game</h3>
 <p>August Alexandersson, Staffan Sundblad with Claude AI, Syed Qasim Asif, Manuel Martinez and David Barrera</p>
+<h3>Creator of online bots</h3>
+<p>Staffan Sundblad with Claude AI using reinforcement learning</p>
 <h3>Creator of card generator script</h3>
 <p>René Huanco</p>
 <h3>Card template design</h3>
@@ -22,4 +24,4 @@ require(ROOT.'view/head.php');
 <h3>Website & Videos</h3>
 <p>Jim Westergren</p>
 <h3>Inspiration</h3>
-<p>Richard Garfield (creator of Magic the Gathering)<br>Bryan Winter (creator of Doomtrooper)</p>
+<p>Richard Garfield (creator of Magic the Gathering TCG)<br>Bryan Winter (creator of Doomtrooper TCG)</p>
