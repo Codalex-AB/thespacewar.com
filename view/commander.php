@@ -23,6 +23,19 @@ require(ROOT.'view/head.php');
 
 <div class="lore"><?=$data['lore']?></div>
 
+<?php if ($slug === 'the-miller'): ?>
+<h2>Cards Good With This Commander</h2>
+
+<?=cardImage('excellent-work')?>
+<?=cardImage('grand-opportunity')?>
+<?=cardImage('good-karma')?>
+<?=cardImage('release-of-energy')?>
+<?=cardImage('discovery')?>
+<?=cardImage('sabotage')?>
+
+
+<?php endif; ?>
+
 
 <h2>Changelog During Playtesting</h2>
 

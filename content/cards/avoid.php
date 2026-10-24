@@ -1,5 +1,15 @@
 <p>Avoid is able to counter big cards such as <a href="/cards/supernova">Supernova</a> and big spaceships.</p>
 
+<h2>Cards that cost 5 or more</h2>
+
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if (!is_numeric($card['cost']) || (int) $card['cost'] < 5) continue;
+
+    echo cardImage($card_slug);
+}
+?>
+
 <h2>Compare With</h2>
 
 <?=cardImage('cancel')?>

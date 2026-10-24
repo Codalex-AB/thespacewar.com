@@ -87,7 +87,4 @@ require(ROOT.'view/head.php');
 
 <h2>Current playtesting questions</h2>
 
-<ul>
-    <li>Is <a href='/commanders/staux'>Commander Staux</a> too good together with <a href='/cards/time-warp'>Time Warp</a>?</li>
-    <li>Is the <a href='/cards/deploy-starship'>Deploy Starship</a> too good together with <a href='/cards/drone'>Drones</a> when playing constructed?</li>
-</ul>
+

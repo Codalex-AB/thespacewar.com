@@ -1,3 +1,13 @@
+<h2>Cards that cost 5 or more</h2>
+
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if (!is_numeric($card['cost']) || (int) $card['cost'] < 5) continue;
+
+    echo cardImage($card_slug);
+}
+?>
+
 <h2>Compare With</h2>
 
 <?=cardImage('luck')?>
@@ -7,7 +17,7 @@
 <h2>Rule Clarifications</h2>
 
 <ul>
-    <li>If Cancel is countered by for example Fate it would void all text on the card meaning that there is no discard to be done. The discarding is not part of the cost of playing the card.</li>
+    <li>The discarding part of Cancel is part of the cost of playing the card and has to happen even if Cancel is countered by for example Fate.</li>
 </ul>
 
 <h2>Changelog During Playtesting</h2>

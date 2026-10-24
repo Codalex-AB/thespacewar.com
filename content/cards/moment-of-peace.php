@@ -6,10 +6,8 @@
 <?=cardImage('hacker')?>
 <?=cardImage('starhunter')?>
 <?=cardImage('fusion-ship')?>
-<?=cardImage('explosive-missile')?>
 <?=cardImage('death-ray-cannon')?>
 <?=cardImage('stormfalcon')?>
-<?=cardImage('nuclear-missile')?>
 
 <h2>Changelog During Playtesting</h2>
 

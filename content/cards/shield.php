@@ -1,5 +1,3 @@
-<p>The only shield that does not count on the limit of max 1 shield in play at the same time.</p>
-
 <h2>Other Shields</h2>
 
 <?=cardImage('energy-shield')?>

@@ -1,5 +1,16 @@
 <p>This is truly a card that has made people win in this game. It has a high cost but makes your spaceships so much better.</p>
 
+<h2>Spaceships with attack value 3 or more</h2>
+
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if ($card['type'] !== 'Spaceship') continue;
+    if (!is_numeric($card['attack']) || (int) $card['attack'] < 3) continue;
+
+    echo cardImage($card_slug);
+}
+?>
+
 <h2>Cards Good Against</h2>
 
 <?=cardImage('neutralization')?>
@@ -9,7 +20,6 @@
 <h2>Good with this</h2>
 
 <?=cardImage('destiny-decided')?>
-<?=cardImage('trigger-happy-joe')?>
 
 <h2>Changelog During Playtesting</h2>
 

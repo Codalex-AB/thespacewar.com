@@ -1,11 +1,27 @@
+<h2>Spaceships that cost 5 or more</h2>
+
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if ($card['type'] !== 'Spaceship') continue;
+    if (!is_numeric($card['cost']) || (int) $card['cost'] < 5) continue;
+
+    echo cardImage($card_slug);
+}
+?>
+
 <h2>Compare With</h2>
 
 <?=cardImage('deja-vu')?>
 <?=cardImage('perfect-plan')?>
 
-<h2>Cards Good With</h2>
+<h2>Cards Good With for Discarding</h2>
 
-<?=cardImage('drone')?>
+<?=cardImage('acid-projectile')?>
+<?=cardImage('perfect-plan')?>
+<?=cardImage('brilliance')?>
+<?=cardImage('discovery')?>
+<?=cardImage('commander-dr-stein')?>
+
 
 <h2>Changelog During Playtesting</h2>
 

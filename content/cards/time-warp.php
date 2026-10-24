@@ -9,14 +9,13 @@
 
 <h2>Cards that Cost 0</h2>
 
-<?=cardImage('target-missed')?>
-<?=cardImage('luck')?>
-<?=cardImage('fate')?>
-<?=cardImage('sabotage')?>
-<?=cardImage('ambush')?>
-<?=cardImage('return')?>
-<?=cardImage('cancel')?>
-<?=cardImage('discovery')?>
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if ((string) $card['cost'] !== '0') continue;
+
+    echo cardImage($card_slug);
+}
+?>
 
 <h2>Compare With</h2>
 

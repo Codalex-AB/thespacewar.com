@@ -1,20 +1,14 @@
 <p>Luck is one of those cards you get happy to get on your hand. With it you can counter a big part of the cards in the opponent's deck.</p>
 
-<h2>Cards commonly countered by Luck</h2>
+<h2>Cards that cost 2 or 3</h2>
 
-<?=cardImage('fast-missile')?>
-<?=cardImage('explosive-missile')?>
-<?=cardImage('cancel')?>
-<?=cardImage('drone')?>
-<?=cardImage('perfect-plan')?>
-<?=cardImage('avoid')?>
-<?=cardImage('target-missed')?>
-<?=cardImage('ambush')?>
-<?=cardImage('return')?>
-<?=cardImage('toxic-gas')?>
-<?=cardImage('destroy-duration')?>
-<?=cardImage('neutralization')?>
-<?=cardImage('destiny-decided')?>
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if (!in_array((string) $card['cost'], ['2', '3'], true)) continue;
+
+    echo cardImage($card_slug);
+}
+?>
 
 <h2>What can stop Luck?</h2>
 

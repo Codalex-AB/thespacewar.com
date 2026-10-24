@@ -26,56 +26,48 @@ foreach ($commander_data as $commander_slug => $commander) {
 
 <h2>Spaceship Cards</h2>
 <p>These can move and attack. Sometimes they have special abilities.</p>
-<?=cardImage('the-dark-destroyer')?>
-<?=cardImage('the-exterminator')?>
-<?=cardImage('stormfalcon')?>
-<?=cardImage('titan')?>
-<?=cardImage('pursuiter')?>
-<?=cardImage('trigger-happy-joe')?>
-<?=cardImage('thunderbolt')?>
-<?=cardImage('the-gladiator')?>
-<?=cardImage('the-shade')?>
-<?=cardImage('hunter')?>
-<?=cardImage('small-repair-ship')?>
-<?=cardImage('big-repair-ship')?>
-<?=cardImage('battlestar')?>
-<?=cardImage('disturbing-sensor')?>
-<?=cardImage('deadly-sniper')?>
-<?=cardImage('the-liberator')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 1 || $value['type'] != 'Spaceship' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Event Cards</h2>
 <p>Playing an event card means that something happens a single time. The card gets placed directly in the discard pile.</p>
-<?=cardImage('excellent-work')?>
-<?=cardImage('supernova')?>
-<?=cardImage('target-missed')?>
-<?=cardImage('missiles-launched')?>
-<?=cardImage('perfect-plan')?>
-<?=cardImage('grand-opportunity')?>
-<?=cardImage('luck')?>
-<?=cardImage('fatal-error')?>
-<?=cardImage('discovery')?>
-<?=cardImage('sabotage')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 1 || $value['type'] != 'Event' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Duration Cards</h2>
 <p>These cards stay on the table and alter the game in some way. The action cost of the card has to be paid each turn for it to remain in play.</p>
-<?=cardImage('full-attack')?>
-<?=cardImage('good-karma')?>
-<?=cardImage('neutralization')?>
-<?=cardImage('corrupted-outpost')?>
-<?=cardImage('avoid')?>
-<?=cardImage('destiny-decided')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 1 || $value['type'] != 'Duration' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Missile Cards</h2>
 <p>More powerful and quicker than spaceships, but they are destroyed when hitting their target.</p>
-<?=cardImage('explosive-missile')?>
-<?=cardImage('fast-missile')?>
-<?=cardImage('emp-missile')?>
-<?=cardImage('nuclear-missile')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 1 || $value['type'] != 'Missile' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Defense Cards</h2>
 <p>These defend your space station and cannot move.</p>
-<?=cardImage('energy-shield')?>
-<?=cardImage('defense-cannon')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 1 || $value['type'] != 'Defense' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <hr>
 

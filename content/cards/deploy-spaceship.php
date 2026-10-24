@@ -1,18 +1,24 @@
-<h2>Popular Cards to Discard from Play</h2>
+<h2>Low Cost Duration Cards</h2>
 
 <?=cardImage('satellite')?>
 <?=cardImage('station-repair')?>
 <?=cardImage('energy-source')?>
-<?=cardImage('drone')?>
-<?=cardImage('fast-missile')?>
-<?=cardImage('acid-projectile')?>
+<?=cardImage('disturbing-signals')?>
+<?=cardImage('extra-deposit')?>
+<?=cardImage('corrupted-outpost')?>
+
+<h2>Big Spaceships</h2>
+
+<?=cardImage('starship')?>
+<?=cardImage('the-dark-destroyer')?>
+<?=cardImage('carrier')?>
 
 
 <h2>Rule Clarifications</h2>
 
 <ul>
-    <li>If Deploy Starship is countered with for example Avoid, then no cards are discarded from play.</li>
-    <li>The Starship card is not being played for free but instead placed in play for free - this is meaning that the Starship card cannot be countered.</li>
+    <li>If Deploy Spaceship is countered with for example Avoid, then no cards are discarded from play.</li>
+    <li>The Spaceship card chosen is put into play and cannot be countered.</li>
 </ul>
 
 <h2>Changelog During Playtesting</h2>

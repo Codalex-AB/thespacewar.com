@@ -28,36 +28,48 @@ foreach ($commander_data as $commander_slug => $commander) {
 
 <h2>Spaceship Cards</h2>
 
-<?=cardImage('drone')?>
-<?=cardImage('drone-leader')?>
-<?=cardImage('repair-ship')?>
-<?=cardImage('paralyzer')?>
-<?=cardImage('carrier')?>
-<?=cardImage('fusion-ship')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 2 || $value['type'] != 'Spaceship' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Event Cards</h2>
 
-<?=cardImage('revive-procedure')?>
-<?=cardImage('sacrifice')?>
-<?=cardImage('destroy-duration')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 2 || $value['type'] != 'Event' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Duration Cards</h2>
 
-<?=cardImage('disturbing-signals')?>
-<?=cardImage('nitro')?>
-<?=cardImage('toxic-gas')?>
-<?=cardImage('base-command-link')?>
-<?=cardImage('collision-skill')?>
-<?=cardImage('time-warp')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 2 || $value['type'] != 'Duration' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Missile Cards</h2>
 
-<?=cardImage('alien-missile')?>
-<?=cardImage('acid-projectile')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 2 || $value['type'] != 'Missile' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <h2>Defense Cards</h2>
 
-<?=cardImage('shield')?>
+<?php
+$cards_array = getCardData();
+foreach ($cards_array as $key => $value) {
+    if ( $value['deck_id'] != 2 || $value['type'] != 'Defense' ) continue;
+    echo "<a href='/cards/".nameToSlug($value['name'])."'><img src='https://images.thespacewar.com/card-".$value['id'].".jpg'></a>";
+} ?>
 
 <p>Complete card list in table format can be found <a href='/card-list'>here</a>.</p>
 

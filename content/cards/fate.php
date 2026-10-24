@@ -1,32 +1,12 @@
 <h2>Cards that cost 0 or 1</h2>
 
-<?=cardImage('target-missed')?>
-<?=cardImage('luck')?>
-<?=cardImage('discovery')?>
-<?=cardImage('sabotage')?>
-<?=cardImage('fate')?>
-<?=cardImage('ambush')?>
-<?=cardImage('cancel')?>
-<?=cardImage('return')?>
-<?=cardImage('drone')?>
-<?=cardImage('toxic-gas')?>
-<?=cardImage('shield')?>
-<?=cardImage('alien-missile')?>
-<?=cardImage('acid-projectile')?>
-<?=cardImage('destroy-duration')?>
-<?=cardImage('repair-ship')?>
-<?=cardImage('disturbing-signals')?>
-<?=cardImage('sacrifice')?>
-<?=cardImage('nitro')?>
-<?=cardImage('corrupted-outpost')?>
-<?=cardImage('pursuiter')?>
-<?=cardImage('defense-cannon')?>
-<?=cardImage('extra-deposit')?>
-<?=cardImage('deja-vu')?>
-<?=cardImage('transformation')?>
-<?=cardImage('brilliance')?>
-<?=cardImage('station-repair')?>
-<?=cardImage('satellite')?>
+<?php
+foreach (getCardData() as $card_slug => $card) {
+    if (!in_array((string) $card['cost'], ['0', '1'], true)) continue;
+
+    echo cardImage($card_slug);
+}
+?>
 
 <h2>Compare With</h2>
 

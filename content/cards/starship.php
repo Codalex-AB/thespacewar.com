@@ -11,8 +11,7 @@
 
 <h2>Works Good With</h2>
 
-<?=cardImage('fusion-ship')?>
-<?=cardImage('deploy-starship')?>
+<?=cardImage('deploy-spaceship')?>
 <?=cardImage('energy-source')?>
 
 <h2>How to get rid of Starship</h2>
@@ -21,7 +20,6 @@
 <?=cardImage('nuclear-missile')?>
 <?=cardImage('paralyzer')?>
 <?=cardImage('sacrifice')?>
-<?=cardImage('alien-missile')?>
 <?=cardImage('electrocution')?>
 <?=cardImage('hacker')?>
 

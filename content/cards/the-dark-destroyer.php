@@ -19,7 +19,7 @@
 <?=cardImage('disturbing-sensor')?>
 <?=cardImage('big-repair-ship')?>
 <?=cardImage('small-repair-ship')?>
-<?=cardImage('fusion-ship')?>
+<?=cardImage('deploy-spaceship')?>
 
 <p>Luck is important to counter most good cards against this. Destiny Decided also blocks Supernova. The repair ships is not only for reactivating from an EMP attack but also for repairing damage. Fusion Ship can be used to get it to play faster. </p>
 
